@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.env
+.venv
+env/
+venv/
+ENV/
+*.env
+*.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ML artifacts
+*.pkl
+*.pt
+*.bin
+*.onnx
+faiss_index/
+models/
+
+# Node
+node_modules/
+.npm
+.yarn
+.pnp
+.pnp.js
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+
+# Docker
+*.env.docker
+
+# Uploads (user data)
+uploads/
+tmp/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
